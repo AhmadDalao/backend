@@ -32,14 +32,12 @@ $ npm run start:prod
 ## Get the docker image
 ```bash
 docker pull ahmaddalao/backend-repo:backend-dockerized
-===== or =====
-docker pull ahmaddalao/backend-repo
 ```
 
 ##  Run the docker image
 
 ```bash
-docker run -p 8080:3000  backend-dockerized 
+docker run -p 8080:3000 backend-dockerized 
 ```
 
 
